@@ -1,6 +1,6 @@
-package com.example.autotrip.services;
+package com.example.tripapi.services;
 
-import com.example.autotrip.models.Driver;
+import com.example.tripapi.models.Driver;
 
 import java.util.List;
 

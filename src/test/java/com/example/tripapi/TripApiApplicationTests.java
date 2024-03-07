@@ -1,10 +1,10 @@
-package com.example.autotrip;
+package com.example.tripapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AutoTripApplicationTests {
+class TripApiApplicationTests {
 
     @Test
     void contextLoads() {

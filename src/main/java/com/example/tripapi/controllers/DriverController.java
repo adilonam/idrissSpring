@@ -1,7 +1,7 @@
-package com.example.autotrip.controllers;
+package com.example.tripapi.controllers;
 
-import com.example.autotrip.models.Driver;
-import com.example.autotrip.services.DriverService;
+import com.example.tripapi.models.Driver;
+import com.example.tripapi.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
