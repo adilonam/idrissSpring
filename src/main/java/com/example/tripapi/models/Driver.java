@@ -1,9 +1,6 @@
 package com.example.tripapi.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,21 +18,18 @@ public class Driver {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    private String firstname;
+    private String firstName;
 
-    private String lastname;
+    private String lastName;
 
-    private String matricule ;
+    private String registrationNumber;
 
 
     private Date dateOfBirth;
 
-    private String cin;
+    private String CIN;
 
-    private String driverLicenseNumber;
-
-    private Date licenseIssueDate;
-
-    private String licenseType;
+    @OneToOne(mappedBy = "driver")
+    private DrivingLicense drivingLicense;
 
 }
