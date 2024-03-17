@@ -1,15 +1,15 @@
-package com.example.tripapi.repositories;
+package uiz.ac.ma.idrissspring.services;
 
-import com.example.tripapi.models.Driver;
-import com.example.tripapi.repositories.DriverRepository;
-import com.example.tripapi.services.DriverService;
+import uiz.ac.ma.idrissspring.models.Driver;
+import uiz.ac.ma.idrissspring.repositories.DriverRepository;
+import uiz.ac.ma.idrissspring.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class tetetetete implements DriverService {
+public class DriverServiceImpl implements DriverService {
 
     @Autowired
     private DriverRepository driverRepository;

@@ -1,6 +1,6 @@
-package com.example.tripapi.repositories;
+package uiz.ac.ma.idrissspring.repositories;
 
-import com.example.tripapi.models.Driver;
+import uiz.ac.ma.idrissspring.models.Driver;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DriverRepository extends JpaRepository<Driver, Long> {

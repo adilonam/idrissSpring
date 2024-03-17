@@ -1,7 +1,7 @@
-package com.example.tripapi.controllers;
+package uiz.ac.ma.idrissspring.controllers;
 
-import com.example.tripapi.models.Driver;
-import com.example.tripapi.services.DriverService;
+import uiz.ac.ma.idrissspring.models.Driver;
+import uiz.ac.ma.idrissspring.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package com.example.tripapi;
+package uiz.ac.ma.idrissspring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TripApiApplicationTests {
+class IdrissSpringApplicationTests {
 
     @Test
     void contextLoads() {

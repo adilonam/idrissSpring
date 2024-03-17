@@ -1,4 +1,4 @@
-package com.example.tripapi.models;
+package uiz.ac.ma.idrissspring.models;
 
 
 import jakarta.persistence.Entity;

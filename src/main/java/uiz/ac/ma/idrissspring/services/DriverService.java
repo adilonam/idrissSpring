@@ -1,6 +1,6 @@
-package com.example.tripapi.services;
+package uiz.ac.ma.idrissspring.services;
 
-import com.example.tripapi.models.Driver;
+import uiz.ac.ma.idrissspring.models.Driver;
 
 import java.util.List;
 
