@@ -2,7 +2,6 @@ package uiz.ac.ma.idrissspring.services;
 
 import uiz.ac.ma.idrissspring.models.Driver;
 import uiz.ac.ma.idrissspring.repositories.DriverRepository;
-import uiz.ac.ma.idrissspring.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
