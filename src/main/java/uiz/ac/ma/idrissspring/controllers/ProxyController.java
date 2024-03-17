@@ -1,7 +1,7 @@
 package uiz.ac.ma.idrissspring.controllers;
 
 
-
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +14,8 @@ import java.util.*;
 public class ProxyController {
 
    
-    private final String forwardUrl = "http://localhost:8000/v1/";
+    @Value("${custom.forward-url}")
+    private String forwardUrl;
 
 
     
